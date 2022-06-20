@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Payment methods",
+  "FriendlyName": "Pasargad Bank",
+  "SystemName": "Payments.Pasargad",
+  "Version": "4.0.0",
+  "SupportedVersions": [ "4.50" ],
+  "Author": "minoo alimohammadi",
+  "DisplayOrder": -1,
+  "FileName": "Nop.Plugin.Payments.Pasargad.dll",
+  "Description": "This plugin is port of Pasargad bank for this store"
+}
