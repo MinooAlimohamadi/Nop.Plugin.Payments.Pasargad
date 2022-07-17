@@ -246,7 +246,7 @@ namespace Nop.Plugin.Payments.Pasargad.Controllers
                                 CreatedOnUtc = DateTime.UtcNow
                             });
                             await _orderService.UpdateOrderAsync(order);
-                            return RedirectToRoute("OrderDetails", new { orderId = order.Id });
+                            return RedirectToRoute("CheckoutCompleted", new { orderId = order.Id });
                         }
 
                         #endregion
